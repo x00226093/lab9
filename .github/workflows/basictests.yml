@@ -1,7 +1,7 @@
 name: lab9-basic-tests
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "test" ]
 jobs:
   lab9-basic-tests:
     runs-on: ubuntu-latest
