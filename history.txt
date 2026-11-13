@@ -1,0 +1,57 @@
+  473  gh repo create lab9 --public --source=. --remote=origin
+  474  git init
+  475  gh repo create lab9 --public --source=. --remote=origin
+  476  gh label create EPIC
+  477  gh issue create --title "do lab9" --label "EPIC" --assignee "@me"
+  478  gh issues create --title "create validate-script data" --label "enhancement" --assignee "@me"
+  479  gh issue create --title "create validate-script data" --label "enhancement" --assignee "@me"
+  480  nano validate-data.sh
+  481  bash validate-data.sh "pearse mccarthy" "1234567890"
+  482  bash validate-data.sh "pearse mccarthy" "12345678901"
+  483  nano validate-data.sh
+  484  bash validate-data.sh "pearse mccarthy" "1234567890"
+  485  nano validate-data.sh
+  486  bash validate-data.sh "pearse mccarthy" "1234567890"
+  487  nano validate-data.sh
+  488  bash validate-data.sh "pearse mccarthy" "1234567890"
+  489  bash validate-data.sh "pearse mccarthy" "12345678901"
+  490  nano validate-data.sh
+  491  bash validate-data.sh "pearse mccarthy" "1234567890"
+  492  bash validate-data.sh "pearse mccarthy" "12345678901"
+  493  bash validate-data.sh "pearse mccarthy" "12345678901234"
+  494  bash validate-data.sh "pearse mccarthyyy" "12345678901234"
+  495  bash validate-data.sh "pearse mccarthyyy" "1234567890"
+  496  nano validate-data.sh
+  497  bash validate-data.sh "pearse mccarthy" "12345678901"
+  498  bash validate-data.sh "pearse mccarthyyy" "12345678901234"
+  499  bash validate-data.sh "pearse mccarthyyy" "1234567890"
+  500  bash validate-data.sh "pearse mccarthy" "12345678901234"
+  501  nano validate-data.sh
+  502  bash validate-data.sh "pearse mccarthy" "12345678901"
+  503  bash validate-data.sh "pearse mccarthyyy" "1234567890"
+  504  bash validate-data.sh "pearse mccarthy" "1234567890"
+  505  gh issue create --title "create YAML test script" --label "enhancemnet" --assignee "@me"
+  506  gh issue create --title "create YAML test script" --label "enhancement" --assignee "@me"
+  507  mkdir -p .github/workflows
+  508  nano .github/workflows/basictests.yml
+  509  git add .
+  510  git commit -m "Added Validate-script and Github file yaml"
+  511  git branch -M main
+  512  git push -u origin main
+  513  gh issue list
+  514  gh issue close 1 2 3
+  515  gh issue create --title "create project view" --label "enhancement" --assignee "@me"
+  516  gh issue create --title "create test branch" --label "enhancement" --assignee "@me"
+  517  git checkout -b test
+  518  nano validate-data.sh
+  519  nano .github/workflows/basictests.yml
+  520  nano validate-data.sh
+  521  git add .
+  522  git commit -m "updated validate-data and yaml script"
+  523  git push -u origin test
+  524  nano .github/workflows/basictests.yml
+  525  git add .
+  526  git commit -m "updated validate-data and yaml script"
+  527  git push -u origin test
+  528  nano .github/workflows/basictests.yml
+  529  history > history.txt
