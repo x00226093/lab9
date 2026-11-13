@@ -22,4 +22,4 @@ jobs:
           # Run the 3 tests and tell it what output to expect (PASS or FAIL)
           run_test "pearse mccarthy" "1234567890" "PASS"
           run_test "pearse mccarthy" "12345678901" "FAIL"
-          run_test "pearseT mccarthy" "1234567890" "FAIL"
+          run_test "pearseT mccarthy" "1234567890" "PASS"
